@@ -1,0 +1,33 @@
+/*-------The first frame, (frame001)-----*/
+#frame001 {
+    padding: 11px;
+    border-radius: 17px;
+    background-color: #6d040d;
+    border: 50px solid rgb(4, 124, 48);
+    height: auto;
+}
+/*---font 001---*/
+#frame001 {
+    color: rgb(243, 236, 236);
+    font-size: large;
+}
+/*---default button---*/
+.blue001 {
+    background-color: rgb(48, 71, 2);
+    border: none;
+    color: rgb(230, 215, 218);
+    padding: 7px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 178px;
+
+}
+/*--align001 for everything to be in the center---*/
+#align001 {
+    text-align: center;
+}
