@@ -4,28 +4,17 @@
     <meta charset="UTF-8">
     <title>NUMBER GUESSING GAME</title>
     <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="game.js" rel="javascript"></script>
+    <script src="script.js" rel="javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Oleo+Script&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div id="frame001">
-             <div id="font001">
-                  <div id="align001">
-                      <h2>Numbers Guessing Game</h2>
-                      <hr />
-                      <p>Attempts: <text id="attempts001">0</text></p>
-                      <input type="text" id="number001" size="1" maxlength="1" />
-                      <input type="text" id="number002" size="1" maxlength="1" />
-                      <input type="text" id="number003" size="1" maxlength="1" />
-                      <input type="text" id="number004" size="1" maxlength="1" /><br /><br />
-                      <div id="retake001">
-                        <button class="blue001" onclick="submit001()">Submit</button>
-                        </div>
-                      <br /><br />
-                      <p id="answer001"></p>
-                      <p id="message001"></p>
-                  </div>
-             </div>
-        </div>
+        <h2 id="display-message">Lest, Play Number Guess</h2>
+        <img id="display-image" src="images/lets-play.jpg">
+        <form id="user-guess" action="javascript:void(0);">
+          <input type="text" placeholder="enter your guess">
+          <input type="button" value="submit guess" onclick="checkUserGuess();">
+          <input class="buttontype=" value="New Game" onclick="location.reload();">
+        </form>
     </body>
 </html>
